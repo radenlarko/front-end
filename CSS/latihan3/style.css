@@ -1,0 +1,15 @@
+h1{
+    color: skyblue;
+    font-size: 100px;
+}
+
+p{
+    text-indent: 100px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+}
