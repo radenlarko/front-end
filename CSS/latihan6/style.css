@@ -1,0 +1,46 @@
+/* Pseudo calss berhubungan dengan link */
+.hello:link {
+    color: tomato;
+}
+
+.hello:hover {
+    color: teal;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: turquoise;
+}
+
+/* Pseudo calss berhubungan dengan posisi elemen */
+
+li:first-child a {
+    color: teal;
+}
+
+li:last-child a {
+    color: tan;
+}
+
+li:nth-child(3n+2) a {
+    color: tomato;
+}
+
+li:nth-child(3n+2) a:hover {
+    color: green;
+}
+
+/* Pseudo calss berhubungan dengan posisi elemen-2 */
+
+p:first-of-type {
+    color: tomato;
+}
+
+p:last-of-type {
+    color: thistle;
+}
