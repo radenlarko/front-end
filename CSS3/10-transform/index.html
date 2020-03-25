@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Transform</title>
+    <style>
+        /*
+        scale(angka), scaleX(angka), scaleY(angka)
+        rotate(deg), rotateX(deg), rotateY(deg)
+        skew(deg), skewX(deg), skewY(deg)
+        translate(px), translateX(px), translateY(px)
+        */
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 0;
+            transition: 1s;
+        }
+
+        .kotak:hover {
+            transform: scale(2) rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto hic vero quo modi. Distinctio, nisi cupiditate voluptatem perferendis pariatur quam possimus. Neque vel at quam reiciendis non aperiam, sequi laudantium.</p>
+
+</body>
+</html>
