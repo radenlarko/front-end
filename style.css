@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 330px;
+    margin: 50px auto;
+}
+
+.content {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 10px;
+}
+
+.objek-1 {
+    background-color: teal;
+}
+
+.objek-2 {
+    background-color: tomato;
+}
+
+.content a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
